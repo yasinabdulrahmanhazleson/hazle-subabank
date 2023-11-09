@@ -1,0 +1,683 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    #bg-banner {
+        background: url(./images/UBA-Header-inner-page-initiatives.jpg);
+        padding-bottom: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .banner-overlay {
+        background: linear-gradient( top, black 20%, rgba(0, 0, 0, 0.4) 100%);
+    }
+    
+    .nav-link {
+        font-size: 13px;
+        font-weight: bolder;
+        color: rgba(255, 255, 255, 0.863);
+    }
+    
+    .nav-hover:hover {
+        color: red;
+        border-bottom: 3px solid red;
+    }
+    
+    .explore-p,
+    .last-sec-link {
+        font-size: 16px;
+        width: 85%;
+        color: gray;
+    }
+    
+    .img-descriptions img {
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+    }
+    
+    .text-descriptions {
+        top: -420px;
+    }
+    
+    .h4-color-red {
+        background-color: rgba(255, 0, 0, 0.3);
+        padding: 70px 0px;
+    }
+    
+    .help-menu {
+        padding: 30px 0px;
+    }
+    
+    .dropdown-item:hover {
+        background-color: rgb(113, 255, 255);
+    }
+    
+    .connect-img img {
+        width: 100%;
+    }
+    
+    .connect-icons i {
+        background-color: rgb(197, 197, 197);
+    }
+    
+    .connect-icons i:hover {
+        background-color: #dc3545;
+    }
+    
+    .help-menu a {
+        text-decoration: none;
+        color: gray;
+        font-size: 17px;
+    }
+    
+    .last-sec-link:hover {
+        color: white;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .trade-partner {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/Your-Africa-Trade-Partner.jpg);
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .serving-customers {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/Habibi-Banner.jpg);
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .gateway {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/UBA-gateway-between-africa-and-north.jpg);
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .leo-chat {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/leo-meta-verse-chat-face.jpg);
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .convenience {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/Web-Banner-c-1.jpg);
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .thisisafrica {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/uba-this-is-africa.jpg);
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .hot-trendy {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/WEB-BANNER-2.jpg);
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .saveandwin {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/Supersavers-Website-banner-B.jpg);
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .banner-position {
+        top: -150px;
+        width: 100%;
+        flex-wrap: wrap;
+        border-radius: 4%;
+        border: 1px solid white;
+        box-shadow: 0px 20px 25px rgba(0, 0, 0, 30%);
+    }
+    
+    .banner-position:hover .banner-position-img {
+        filter: none;
+        transition: 0.6s ease-in-out;
+    }
+    
+    .banner-position:hover .banner-position-p {
+        color: rgb(173, 15, 15);
+        transition: 1s ease-in-out;
+    }
+    
+    .banner-position-img {
+        filter: grayscale(100%);
+    }
+    
+    .hover-container {
+        top: 100px;
+        left: 320px;
+        transform: scale(0);
+    }
+    
+    ul :hover .hover-container {
+        transform: scale(1);
+    }
+    
+    .bank-close img {
+        width: 100%;
+    }
+    
+    .auto {
+        top: -100px;
+    }
+    
+    .carousel-text-h {
+        font-size: 50px;
+        /* width: 80%; */
+    }
+    
+    .carousel-text-p {
+        font-size: 20px;
+        /* width: 80%; */
+    }
+    
+    .carousel-text img {
+        width: 10%;
+        height: 5%;
+    }
+    
+    .easy-img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    
+    .easy-h {
+        color: rgb(63, 63, 63);
+    }
+    
+    .easy-p {
+        font-size: 20px;
+        width: 80%;
+    }
+    
+    select,
+    .easy-btn .btn {
+        width: 80%;
+    }
+    
+    .help-menu-select {
+        width: 100%;
+    }
+    
+    .easy-icon {
+        border-radius: 100%;
+    }
+    
+    .easy-play {
+        top: -200px;
+    }
+    
+    .bg-map {
+        background-image: url(./images/world-map-1024x1024.png);
+        /* padding: 300px; */
+        object-fit: cover;
+    }
+    
+    .choose-p,
+    .first-bg-gray-div p,
+    .text-danger-p {
+        font-size: 19px;
+    }
+    
+    .find-out-why:hover {
+        background-color: #dc3545;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .choose-container,
+    .bg-gray {
+        padding: 80px 0;
+    }
+    
+    .carousel-card img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+    
+    .carousel-card-p {
+        font-size: 19px;
+        margin: 20px 0;
+    }
+    
+    .carousel-card-img {
+        box-shadow: 0px 20px 25px rgba(0, 0, 0, 6%);
+    }
+    
+    .carousel-card-section {
+        margin: 80px 0;
+    }
+    
+    .carousel-card-body {
+        height: 200px;
+    }
+    
+    .carousel-card-body-text {
+        height: 450px;
+    }
+    
+    .carousel-card-body a:hover,
+    .carousel-card-body-text a:hover {
+        border-bottom: 2px solid red;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .bg-opacity {
+        background: linear-gradient(to right, brown -50%, black 70%);
+        padding: 80px 0;
+    }
+    
+    .open-business-btn:hover {
+        background-color: transparent;
+    }
+    
+    .banking-beyond-norm img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+    
+    .banking-beyond-norm-p {
+        font-size: 22px;
+        width: 100%;
+    }
+    
+    .banking-beyond-norm-h {
+        font-size: 40px;
+    }
+    
+    .banking-beyond-norm-div {
+        top: 100px;
+    }
+    
+    .banking-beyond-norm-link {
+        margin: 125px 0;
+    }
+    
+    .banking-beyond-norm-img img {
+        width: 100%;
+        height: 200px;
+        border-radius: 100%;
+        margin-top: -80px;
+    }
+    
+    .bg-img-position1 {
+        background-image: linear-gradient(rgba(8, 8, 8, 0.6), rgba(0, 0, 0, 0.6)), url(./images/always-at-your-service-uba.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .bg-img-position2 {
+        background-image: linear-gradient(rgba(8, 8, 8, 0.6), rgba(0, 0, 0, 0.6)), url(./images/uba-foundation.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .bg-img-position3 {
+        background-image: linear-gradient(rgba(8, 8, 8, 0.6), rgba(0, 0, 0, 0.6)), url(./images/UBA-Investor-Management.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .bg-img-position4 {
+        background-image: linear-gradient(rgba(8, 8, 8, 0.6), rgba(0, 0, 0, 0.6)), url(./images/uba-group-press-release.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .bg-img-temp {
+        background-image: url(./images/UBA-section-inner-page-red-tv.jpg);
+        padding: 200px;
+        width: 50%;
+        height: 100px;
+        border: 1px solid;
+        border-radius: 50%;
+        background-size: cover;
+        margin: 0 auto;
+    }
+    
+    .flex-icon {
+        top: -220px;
+    }
+    
+    .bg-gray {
+        background-color: rgb(248, 248, 248);
+    }
+    
+    .bg-gray-img img {
+        width: 100%;
+        height: 260px;
+        box-sizing: border-box;
+    }
+    
+    .first-bg-gray-div h1,
+    .bg-danger-h {
+        font-size: 40px;
+    }
+    
+    .first-bg-danger-div {
+        background-color: red;
+    }
+    
+    .bg-danger-form::placeholder {
+        font-size: 16px;
+    }
+    
+    .ios-message-img img {
+        width: 10%;
+    }
+    
+    .carousel-banner-img {
+        top: -100px;
+        z-index: -1;
+    }
+    
+    .carousel-text {
+        height: 70%;
+    }
+    
+    .carousel-caption-p {
+        font-size: 25px;
+        align-items: center;
+    }
+    
+    .carousel-caption-h {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .leadership-img {
+        background-image: linear-gradient(rgba(255, 0, 0, .5), rgba(255, 0, 0, .5)), url(./images/UBA-Leadership-header2-1.jpg);
+        height: 150px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .achievement-img {
+        background-image: linear-gradient(rgba(255, 0, 0, .5), rgba(255, 0, 0, .5)), url(./images/UBA-Group-Achievements.jpg);
+        height: 150px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .about-uba-img {
+        background-image: linear-gradient(rgba(255, 0, 0, .5), rgba(255, 0, 0, .5)), url(./images/UBA-Header-inner-page-about-uba.jpg);
+        height: 150px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .bg-red-achieve-section p {
+        display: none;
+    }
+    
+    .bg-red-achieve-section:hover p {
+        display: block;
+        transition: .9s ease-in-out;
+        transform: translateY(10px);
+    }
+    
+    .bank-close-text h6:hover {
+        background-color: rgb(233, 231, 231);
+        transition: .5s ease-in-out;
+    }
+    
+    .bank-close-text a,
+    .bank-close-text-2 p {
+        color: rgb(129, 127, 127);
+    }
+    
+    .bank-close-text a:hover {
+        color: #dc3545;
+    }
+    
+    .bank-close-text-hide {
+        border-left: 1px solid rgb(221, 219, 219);
+        height: 100%;
+        padding: 0px 15px;
+    }
+    
+    .bank-close-text-2:hover .bank-close-text-hide {
+        display: block;
+    }
+    
+    @media(max-width: 750px) {
+        .last-sec-p,
+        .easy-p {
+            width: 90%;
+            font-size: 18px;
+        }
+        select {
+            font-size: 12px;
+        }
+        .connect-col {
+            width: 100%;
+            text-align: center;
+        }
+        .connect-row img {
+            width: 100%;
+        }
+        .help-menu a {
+            font-size: 15px;
+        }
+        .last-row {
+            text-align: center;
+        }
+        select,
+        .easy-btn .btn {
+            width: 100%;
+        }
+        .easy-img {
+            width: 100%;
+            object-fit: cover;
+        }
+        .choose-h4,
+        .choose-h1,
+        .choose-p {
+            width: 100%;
+        }
+        .choose-container {
+            margin-top: 0;
+        }
+        .bg-opacity-text {
+            font-size: 25px;
+            margin-bottom: 20px;
+            display: flex;
+            text-align: center;
+        }
+        .banking-beyond-norm img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .banking-beyond-norm-p {
+            font-size: 12px;
+            width: 100%;
+        }
+        .banking-beyond-norm-h {
+            font-size: 15px;
+            width: 100%;
+        }
+        .banking-beyond-norm-div {
+            top: -400px;
+        }
+        .banking-beyond-norm-img img {
+            width: 100%;
+            height: 150px;
+            border-radius: 100%;
+            margin-top: -50px;
+        }
+        .banking-beyond-norm-link {
+            margin: 125px 0;
+        }
+        .first-bg-gray-div h1,
+        .bg-danger-h {
+            font-size: 25px;
+        }
+        .bg-gray {
+            font-size: 16px;
+        }
+        .carousel-texts {
+            top: -250px;
+        }
+        .carousel-caption-p {
+            font-size: 12px;
+        }
+        .carousel-caption-h {
+            font-size: 18px;
+        }
+        .banner-position {
+            top: -70px;
+            width: 100%;
+            flex-wrap: wrap;
+            border: none;
+            border-radius: 0%;
+            border-bottom: 1px solid;
+            box-shadow: none;
+        }
+        .banner-position-img {
+            filter: none;
+        }
+        .trade-partner {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/Your-Africa-Trade-Partner.jpg);
+            height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .serving-customers {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/Habibi-Banner.jpg);
+            height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .gateway {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/UBA-gateway-between-africa-and-north.jpg);
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .leo-chat {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/leo-meta-verse-chat-face.jpg);
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .convenience {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/Web-Banner-c-1.jpg);
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .thisisafrica {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/uba-this-is-africa.jpg);
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .hot-trendy {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/WEB-BANNER-2.jpg);
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .saveandwin {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/Supersavers-Website-banner-B.jpg);
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .bg-img-position1 {
+            background-image: linear-gradient(rgba(8, 8, 8, 0.6), rgba(0, 0, 0, 0.6)), url(./images/always-at-your-service-uba.jpg);
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .bg-img-position2 {
+            background-image: linear-gradient(rgba(8, 8, 8, 0.6), rgba(0, 0, 0, 0.6)), url(./images/uba-foundation.jpg);
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .bg-img-position3 {
+            background-image: linear-gradient(rgba(8, 8, 8, 0.6), rgba(0, 0, 0, 0.6)), url(./images/UBA-Investor-Management.jpg);
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .bg-img-position4 {
+            background-image: linear-gradient(rgba(8, 8, 8, 0.6), rgba(0, 0, 0, 0.6)), url(./images/uba-group-press-release.jpg);
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .banking-beyond-norm-div {
+            top: 0;
+        }
+        .bg-img-temp {
+            background-image: url(./images/UBA-section-inner-page-red-tv.jpg);
+            padding: 100px;
+            width: 20%;
+            height: 50px;
+            border: 1px solid;
+        }
+        .flex-icon {
+            top: -100px;
+        }
+    }
+    
+    @media(max-width:1300px) {
+        .nav-link {
+            font-size: 8px;
+            font-weight: 400;
+            color: white;
+        }
+    }
